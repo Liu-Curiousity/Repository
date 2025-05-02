@@ -30,8 +30,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1af62d62-3f13-4fff-83b8-9dbadd4c4a37" name="更改" comment="初步封装" />
-    <list id="b1b76d23-e98e-49e4-aec9-474360a81e82" name="22560 进行的更改" comment="" />
+    <list default="true" id="1af62d62-3f13-4fff-83b8-9dbadd4c4a37" name="更改" comment="添加.idea工程目录">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists_template.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists_template.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -1822,7 +1825,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.updates",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.notifications",
     "settings.editor.splitter.proportion": "0.2710027",
     "structure.view.defaults.are.configured": "true",
     "vue.rearranger.settings.migration": "true"
@@ -1844,34 +1847,16 @@
       <recent name="D:\Clion\StepMotor_A4988\Core\Inc" />
     </key>
   </component>
-  <component name="RunManager" selected="OpenOCD 下载并运行.RM_Test.elf">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="code" />
+    </option>
+  </component>
+  <component name="RunManager">
     <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="PID_Compare" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="RM_Test" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\26757\anaconda3\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PID_Compare.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
     <configuration name="RM_Test.elf" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="RM_Test" TARGET_NAME="RM_Test.elf" CONFIG_NAME="Debug" version="1" RUN_TARGET_PROJECT_NAME="RM_Test" RUN_TARGET_NAME="RM_Test.elf">
       <openocd version="1" gdb-port="3333" telnet-port="4444" board-config="D:\Clion\STM32\Config\DAPlink+f4.cfg" reset-type="INIT" download-type="UPDATED_ONLY">
@@ -1881,10 +1866,6 @@
         <option name="CLION.COMPOUND.BUILD" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="OpenOCD 下载并运行.RM_Test.elf" />
-      <item itemvalue="Python.PID_Compare" />
-    </list>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -1943,7 +1924,7 @@
       <workItem from="1741525871890" duration="1344000" />
       <workItem from="1743921642594" duration="1822000" />
       <workItem from="1746167408446" duration="124000" />
-      <workItem from="1746167688378" duration="19626000" />
+      <workItem from="1746167688378" duration="22439000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -1961,7 +1942,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746193028841</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="添加.idea工程目录">
+      <option name="closed" value="true" />
+      <created>1746193973095</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1746193973095</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1989,7 +1978,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="初步封装" />
-    <option name="LAST_COMMIT_MESSAGE" value="初步封装" />
+    <MESSAGE value="添加.idea工程目录" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加.idea工程目录" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

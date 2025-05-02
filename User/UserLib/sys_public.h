@@ -56,21 +56,21 @@ extern "C" {
 #include <cstdint>
 #include "FreeRTOS.h"
 /**=====================================User Code End=====================================**/
-// inline void* operator new(const std::size_t size) {
-//     return pvPortMalloc(size);
-// }
-//
-// inline void* operator new[](const std::size_t size) {
-//     return pvPortMalloc(size);
-// }
-//
-// inline void operator delete(void *ptr) {
-//     vPortFree(ptr);
-// }
-//
-// inline void operator delete[](void *ptr) {
-//     vPortFree(ptr);
-// }
+inline void* operator new(const std::size_t size) {
+    return pvPortMalloc(size);
+}
+
+inline void* operator new[](const std::size_t size) {
+    return pvPortMalloc(size);
+}
+
+inline void operator delete(void *ptr) {
+    vPortFree(ptr);
+}
+
+inline void operator delete[](void *ptr) {
+    vPortFree(ptr);
+}
 #endif
 
 #endif //SYS_PUBLIC_H
