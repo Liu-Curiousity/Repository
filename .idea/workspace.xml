@@ -30,18 +30,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1af62d62-3f13-4fff-83b8-9dbadd4c4a37" name="更改" comment="&lt;Lampbot&gt;first commit">
-      <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lampbot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/写库规范.md" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/写库规范.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lampbot/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Lampbot/.idea/editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lampbot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Lampbot/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lampbot/.mxproject" beforeDir="false" afterPath="$PROJECT_DIR$/Lampbot/.mxproject" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lampbot/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c" beforeDir="false" afterPath="$PROJECT_DIR$/Lampbot/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lampbot/USB_DEVICE/User/UserTask/task_debug.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Lampbot/User/UserTask/task_debug.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lampbot/USB_DEVICE/User/UserTask/task_motor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Lampbot/User/UserTask/task_motor.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lampbot/USB_DEVICE/User/UserTask/task_pubilc.h" beforeDir="false" afterPath="$PROJECT_DIR$/Lampbot/User/UserTask/task_pubilc.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lampbot/USB_DEVICE/User/UserTask/task_usb.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Lampbot/User/UserTask/task_usb.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/User/UserLib/Motor/motor_servo.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/User/UserLib/Motor/motor_servo.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -2062,7 +2054,7 @@
       <workItem from="1746167408446" duration="124000" />
       <workItem from="1746167688378" duration="22439000" />
       <workItem from="1746241796525" duration="4926000" />
-      <workItem from="1746247090814" duration="6807000" />
+      <workItem from="1746247090814" duration="7935000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
