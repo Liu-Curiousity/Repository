@@ -860,7 +860,6 @@ osStatus osSemaphoreDelete (osSemaphoreId semaphore_id)
 
 #if (defined (osFeature_Pool)  &&  (osFeature_Pool != 0)) 
 
-
 //This is a primitive and inefficient wrapper around the existing FreeRTOS memory management.
 //A better implementation will have to modify heap_x.c!
 
@@ -1193,7 +1192,7 @@ osMailQId osMailCreate (const osMailQDef_t *queue_def, osThreadId thread_id)
   /* Create a mail pool */
   (*(queue_def->cb))->pool = osPoolCreate(&pool_def);
   if ((*(queue_def->cb))->pool == NULL) {
-    // Delete queue. How to do it in FreeRTOS?
+    //Delete queue. How to do it in FreeRTOS?
     vPortFree(*(queue_def->cb));
     return NULL;
   }

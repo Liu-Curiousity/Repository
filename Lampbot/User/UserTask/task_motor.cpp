@@ -9,6 +9,9 @@
 
 #include "cmsis_os.h"
 #include "task_pubilc.h"
+#include "uart_remote.h"
+
+
 
 void AppTask_Motor(void const *argument) {
     for(;;) {

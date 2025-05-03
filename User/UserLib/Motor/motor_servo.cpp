@@ -18,7 +18,7 @@ bool motor_servo::disable() {
     if (!initialized) return false;
     if (!enabled) return false;
     if (!motor.disable()) return false;
-    enabled = true;
+    enabled = false;
     return true;
 }
 

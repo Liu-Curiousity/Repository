@@ -29,9 +29,19 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1af62d62-3f13-4fff-83b8-9dbadd4c4a37" name="更改" comment="添加.idea工程目录">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/User/UserLib/Motor/motor_base.h" beforeDir="false" afterPath="$PROJECT_DIR$/User/UserLib/Motor/motor_base.h" afterDir="false" />
+    <list default="true" id="1af62d62-3f13-4fff-83b8-9dbadd4c4a37" name="更改" comment="&lt;Lampbot&gt;first commit">
+      <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doc/写库规范.md" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/写库规范.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lampbot/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Lampbot/.idea/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lampbot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Lampbot/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lampbot/.mxproject" beforeDir="false" afterPath="$PROJECT_DIR$/Lampbot/.mxproject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lampbot/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c" beforeDir="false" afterPath="$PROJECT_DIR$/Lampbot/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lampbot/USB_DEVICE/User/UserTask/task_debug.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Lampbot/User/UserTask/task_debug.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lampbot/USB_DEVICE/User/UserTask/task_motor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Lampbot/User/UserTask/task_motor.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lampbot/USB_DEVICE/User/UserTask/task_pubilc.h" beforeDir="false" afterPath="$PROJECT_DIR$/Lampbot/User/UserTask/task_pubilc.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lampbot/USB_DEVICE/User/UserTask/task_usb.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Lampbot/User/UserTask/task_usb.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/User/UserLib/Motor/motor_servo.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/User/UserLib/Motor/motor_servo.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1675,12 +1685,12 @@
     &quot;assignee&quot;: &quot;Liu-Curiousity&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Liu-Curiousity/Repository.git",
-    "accountId": "1556ab33-6ca0-4032-aa50-7dc3cbcc9116"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Liu-Curiousity/Repository.git&quot;,
+    &quot;accountId&quot;: &quot;1556ab33-6ca0-4032-aa50-7dc3cbcc9116&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
@@ -1797,40 +1807,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "OpenOCD 下载并运行.RM_Test.elf.executor": "Debug",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.RadMigrateCodeStyle": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "RunOnceActivity.west.config.association.type.startup.service": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "WebServerToolWindowPanel.toolwindow.highlight.mappings": "true",
-    "WebServerToolWindowPanel.toolwindow.highlight.symlinks": "true",
-    "WebServerToolWindowPanel.toolwindow.show.date": "false",
-    "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
-    "WebServerToolWindowPanel.toolwindow.show.size": "false",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "dev__Ciallo",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/RoboMaster/Repository",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.notifications",
-    "settings.editor.splitter.proportion": "0.2710027",
-    "structure.view.defaults.are.configured": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;OpenOCD 下载并运行.RM_Test.elf.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.west.config.association.type.startup.service&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.highlight.mappings&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.highlight.symlinks&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.date&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.permissions&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.size&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;dev__Ciallo&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/RoboMaster/Repository&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.notifications&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.2710027&quot;,
+    &quot;structure.view.defaults.are.configured&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Clion\STM32\Test\RM_Test\User\UserLib" />
@@ -1853,11 +1863,6 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="Repository" />
       <option name="ENV_FILES" value="" />
@@ -2056,7 +2061,8 @@
       <workItem from="1743921642594" duration="1822000" />
       <workItem from="1746167408446" duration="124000" />
       <workItem from="1746167688378" duration="22439000" />
-      <workItem from="1746241796525" duration="3200000" />
+      <workItem from="1746241796525" duration="4926000" />
+      <workItem from="1746247090814" duration="6807000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -2082,7 +2088,39 @@
       <option name="project" value="LOCAL" />
       <updated>1746193973095</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="&lt;Lampbot&gt;first commit">
+      <option name="closed" value="true" />
+      <created>1746246084848</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1746246084848</updated>
+    </task>
+    <task id="LOCAL-00005" summary="&lt;Lampbot&gt;first commit">
+      <option name="closed" value="true" />
+      <created>1746246137272</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1746246137272</updated>
+    </task>
+    <task id="LOCAL-00006" summary="&lt;Lampbot&gt;first commit">
+      <option name="closed" value="true" />
+      <created>1746246160067</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1746246160067</updated>
+    </task>
+    <task id="LOCAL-00007" summary="&lt;Lampbot&gt;first commit">
+      <option name="closed" value="true" />
+      <created>1746246216058</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1746246216058</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -2111,7 +2149,8 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="初步封装" />
     <MESSAGE value="添加.idea工程目录" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加.idea工程目录" />
+    <MESSAGE value="&lt;Lampbot&gt;first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="&lt;Lampbot&gt;first commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

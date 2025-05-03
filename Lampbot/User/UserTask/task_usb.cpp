@@ -14,7 +14,6 @@ void AppTask_USB(void const * argument) {
 
     while (1) {
 
-
         osDelay(1);
     }
 }
