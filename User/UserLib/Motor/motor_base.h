@@ -17,17 +17,17 @@ class motor {
 public:
     ~motor() = default;
 
-    bool initialized; // 是否初始化
-    bool enabled;     // 是否使能
-    bool started;     // 是否启动
+    volatile bool initialized; // 是否初始化
+    volatile bool enabled;     // 是否使能
+    volatile bool started;     // 是否启动
 
-    uint32_t id;       // 电机ID
-    float speed;       // 输出轴转速,单位:rpm
-    float angle;       // 输出轴角度,单位:rad,范围[0,2pi]
-    float temperature; // 温度,单位:℃
-    float voltage;     // 电压
-    float current;     // 电流
-    float power;       // 功率
+    volatile uint32_t id;       // 电机ID
+    volatile float speed;       // 输出轴转速,单位:rpm
+    volatile float angle;       // 输出轴角度,单位:rad,范围[0,2pi]
+    volatile float temperature; // 温度,单位:℃
+    volatile float voltage;     // 电压
+    volatile float current;     // 电流
+    volatile float power;       // 功率
 
     virtual bool initialize() = 0; // true 成功，false 失败
     virtual bool enable() = 0;     // true 成功，false 失败
