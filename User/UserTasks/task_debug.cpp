@@ -4,18 +4,18 @@
 #include "motor_servo.h"
 #include "memory"
 
-static gm6020 GM6020_1(&hcan1, 1);
-static motor_servo GM6020_Servo_1(GM6020_1,
-                           PID(PID::position_type,
-                               30, 2, 5,
-                               NAN,NAN,
-                               16383, -16383
-                           ),
-                           PID(PID::position_type,
-                               0, 0, 0,
-                               NAN,NAN,
-                               16383, -16383
-                           ));
+gm6020 *GM6020_1 = new gm6020(&hcan1, 1);
+static motor_servo GM6020_Servo_1(*GM6020_1,
+                                  PID(PID::position_type,
+                                      30, 2, 5,
+                                      NAN,NAN,
+                                      16383, -16383
+                                  ),
+                                  PID(PID::position_type,
+                                      0, 0, 0,
+                                      NAN,NAN,
+                                      16383, -16383
+                                  ));
 
 void CAN_Filter_Init(void);
 
@@ -88,7 +88,7 @@ void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan) {
         uint8_t rx_data[8];
         HAL_CAN_GetRxMessage(hcan, CAN_RX_FIFO0, &rx_header, rx_data);
         if (rx_header.StdId > 0x204 && rx_header.StdId < 0x20C) {
-            GM6020_1.update(rx_data);
+            GM6020_1->update(rx_data);
             GM6020_Servo_1.ctrl();
         }
     }

@@ -15,7 +15,7 @@
 
 class motor {
 public:
-    ~motor() = default;
+    virtual ~motor() = default;
 
     bool initialized; // 是否初始化
     bool enabled;     // 是否使能
