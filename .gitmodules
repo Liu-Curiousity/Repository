@@ -1,0 +1,3 @@
+[submodule "Lampbot"]
+	path = Lampbot
+	url = https://github.com/Fluorine-fish/Lampbot.git

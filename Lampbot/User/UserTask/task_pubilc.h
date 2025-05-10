@@ -19,6 +19,7 @@ extern "C" {
 void AppTask_Debug(void const *argument);
 void AppTask_USB(void const * argument);
 void AppTask_Motor(void const *argument);
+void AppTask_M2006(void const *argument);
 /**======================================================================================**/
 
 

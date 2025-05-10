@@ -72,7 +72,14 @@ void HAL_PCD_MspInit(PCD_HandleTypeDef* pcdHandle)
   if(pcdHandle->Instance==USB_OTG_FS)
   {
   /* USER CODE BEGIN USB_OTG_FS_MspInit 0 */
-
+    __HAL_RCC_GPIOA_CLK_ENABLE();                   // 使能GPIOA端口
+    GPIO_InitTypeDef GPIO_InitStruct = {0};         // 声明结构�?; 如果与文中位置相同，这行可不�?
+    GPIO_InitStruct.Pin = GPIO_PIN_12;              // 引脚PA12, 即D+
+    GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;     // 引脚工作模式
+    GPIO_InitStruct.Pull = GPIO_PULLDOWN;           // 下拉
+    GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;    // 引脚反转速度
+    HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);         // 初始�?
+    HAL_Delay(50);                                   // 持续片刻
   /* USER CODE END USB_OTG_FS_MspInit 0 */
 
     __HAL_RCC_GPIOA_CLK_ENABLE();
@@ -80,7 +87,14 @@ void HAL_PCD_MspInit(PCD_HandleTypeDef* pcdHandle)
     PA12     ------> USB_OTG_FS_DP
     PA11     ------> USB_OTG_FS_DM
     */
-    GPIO_InitStruct.Pin = GPIO_PIN_12|GPIO_PIN_11;
+    GPIO_InitStruct.Pin = GPIO_PIN_12;
+    GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
+    GPIO_InitStruct.Pull = GPIO_PULLDOWN;
+    GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_VERY_HIGH;
+    GPIO_InitStruct.Alternate = GPIO_AF10_OTG_FS;
+    HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
+
+    GPIO_InitStruct.Pin = GPIO_PIN_11;
     GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
     GPIO_InitStruct.Pull = GPIO_NOPULL;
     GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_VERY_HIGH;

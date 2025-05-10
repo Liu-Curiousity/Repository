@@ -32,8 +32,9 @@
     <list default="true" id="1af62d62-3f13-4fff-83b8-9dbadd4c4a37" name="更改" comment="&lt;Lampbot&gt;first commit">
       <change afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Lampbot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doc/写库规范.md" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/写库规范.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -2054,7 +2055,14 @@
       <workItem from="1746167408446" duration="124000" />
       <workItem from="1746167688378" duration="22439000" />
       <workItem from="1746241796525" duration="4926000" />
-      <workItem from="1746247090814" duration="7935000" />
+      <workItem from="1746247090814" duration="11206000" />
+      <workItem from="1746335881806" duration="6010000" />
+      <workItem from="1746430461757" duration="1972000" />
+      <workItem from="1746681027799" duration="1207000" />
+      <workItem from="1746703284470" duration="1316000" />
+      <workItem from="1746755555488" duration="2153000" />
+      <workItem from="1746848050823" duration="867000" />
+      <workItem from="1746885170595" duration="1378000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />

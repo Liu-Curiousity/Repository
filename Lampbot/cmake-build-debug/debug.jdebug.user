@@ -1,0 +1,47 @@
+
+
+
+Breakpoint=D:/RoboMaster/Repository/Lampbot/User/UserTask/task_motor.cpp:78:9, State=BP_STATE_DISABLED
+GraphedExpression="dm4310_4.angle", Color=#e56a6f, Show=0
+GraphedExpression="m2006_1.pid_speed.info.Now", Color=#35792b
+GraphedExpression="m2006_1.pid_speed.info.Target", Color=#769dda
+OpenDocument="main.c", FilePath="D:/RoboMaster/Repository/Lampbot/Core/Src/main.c", Line=59
+OpenDocument="dm4310.cpp", FilePath="D:/RoboMaster/Repository/Lampbot/User/UserLib/dm4310.cpp", Line=351
+OpenDocument="stm32f4xx_ll_usb.c", FilePath="D:/RoboMaster/Repository/Lampbot/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c", Line=481
+OpenDocument="pid.h", FilePath="D:/RoboMaster/Repository/Lampbot/User/UserLib/pid.h", Line=0
+OpenDocument="tasks.c", FilePath="D:/RoboMaster/Repository/Lampbot/Middlewares/Third_Party/FreeRTOS/Source/tasks.c", Line=3637
+OpenDocument="task_motor.cpp", FilePath="D:/RoboMaster/Repository/Lampbot/User/UserTask/task_motor.cpp", Line=0
+OpenDocument="dm4310.h", FilePath="D:/RoboMaster/Repository/Lampbot/User/UserLib/dm4310.h", Line=30
+OpenDocument="startup_stm32f407ighx.s", FilePath="D:/RoboMaster/Repository/Lampbot/Core/Startup/startup_stm32f407ighx.s", Line=49
+OpenDocument="can_base.cpp", FilePath="D:/RoboMaster/Repository/Lampbot/User/UserLib/can_base.cpp", Line=97
+OpenDocument="stm32f4xx_hal_can.c", FilePath="D:/RoboMaster/Repository/Lampbot/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c", Line=1313
+OpenDocument="cmath", FilePath="D:/Program Files/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/arm-none-eabi/include/c++/12.3.1/cmath", Line=412
+OpenToolbar="Debug", Floating=0, x=0, y=0
+OpenWindow="Disassembly", DockArea=RIGHT, x=0, y=0, w=1085, h=137, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Local Data", DockArea=RIGHT, x=0, y=1, w=1085, h=763, TabPos=1, TopOfStack=0, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Watched Data 1", DockArea=RIGHT, x=0, y=1, w=1085, h=763, TabPos=0, TopOfStack=1, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Functions", DockArea=LEFT, x=0, y=1, w=450, h=224, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Call Graph", DockArea=LEFT, x=0, y=0, w=450, h=137, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Data Sampling", DockArea=BOTTOM, x=1, y=0, w=1080, h=501, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0, VisibleTab=0, UniformSampleSpacing=0
+OpenWindow="Timeline", DockArea=BOTTOM, x=0, y=0, w=1479, h=501, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=1, DataPaneShown=1, PowerPaneShown=0, CodePaneShown=0, PinCursor="Cursor Movable", TimePerDiv="500 ms / Div", TimeStampFormat="Time", DataGraphDrawAsPoints=0, DataGraphLegendShown=1, DataGraphUniformSampleSpacing=0, DataGraphLegendPosition="0;62", DataGraphShowNamesAtCursor=1, PowerGraphDrawAsPoints=0, PowerGraphLegendShown=0, PowerGraphAvgFilterTime=Off, PowerGraphAvgFilterLen=Off, PowerGraphUniformSampleSpacing=0, PowerGraphLegendPosition="2535;-69", CodeGraphLegendShown=0, CodeGraphLegendPosition="2551;0"
+OpenWindow="Console", DockArea=LEFT, x=0, y=2, w=450, h=557, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+SmartViewPlugin="", Page="", Toolbar="Hidden", Window="SmartView 1"
+TableHeader="Local Data", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Value";"Location";"Size";"Type";"Access";"Scope"], ColWidths=[202;241;171;89;184;90;108]
+TableHeader="Watched Data 1", SortCol="Expression", SortOrder="ASCENDING", VisibleCols=["Expression";"Value";"Location";"Refresh";"Access"], ColWidths=[248;222;161;129;325]
+TableHeader="Data Sampling Table", SortCol="None", SortOrder="ASCENDING", VisibleCols=["Index";"Time";" dm4310_4.angle";" m2006_1.pid_speed.info.Now";" m2006_1.pid_speed.info.Target"], ColWidths=[100;100;100;100;100]
+TableHeader="Data Sampling Setup", SortCol="Expression", SortOrder="ASCENDING", VisibleCols=["Expression";"Type";"Value";"Min";"Max";"Average";"# Changes";"Min. Change";"Max. Change"], ColWidths=[331;154;100;100;100;100;110;126;126]
+TableHeader="Functions", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Address";"Size";"#Insts";"Class";"Source"], ColWidths=[1634;104;100;100;27;798]
+TableHeader="Call Graph", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Stack Total";"Stack Local";"Code Total";"Code Local";"Depth";"Called From"], ColWidths=[426;126;126;118;118;100;126]
+TableHeader="Power Sampling", SortCol="None", SortOrder="ASCENDING", VisibleCols=["Index";"Time";"Ch 0"], ColWidths=[100;100;100]
+TableHeader="RegisterSelectionDialog", SortCol="None", SortOrder="ASCENDING", VisibleCols=[], ColWidths=[]
+TableHeader="TargetExceptionDialog", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Value";"Address";"Description"], ColWidths=[200;100;100;340]
+WatchedExpression="dm4340_2", RefreshRate=5, Window=Watched Data 1
+WatchedExpression="can1", RefreshRate=5, Window=Watched Data 1
+WatchedExpression="dm4310_4", RefreshRate=5, Window=Watched Data 1
+WatchedExpression="light1", RefreshRate=5, Window=Watched Data 1
+WatchedExpression="light", RefreshRate=5, Window=Watched Data 1
+WatchedExpression="temperature", RefreshRate=5, Window=Watched Data 1
+WatchedExpression="m2006_1", RefreshRate=5, Window=Watched Data 1
+WatchedExpression="m2006_group_1", RefreshRate=5, Window=Watched Data 1
+WatchedExpression="P", Window=Watched Data 1
+WatchedExpression="target", RefreshRate=5, Window=Watched Data 1
